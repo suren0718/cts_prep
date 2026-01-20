@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ct6{
+public class cts6{
   public static void main(String args[]){
     Scanner raghulan = new Scanner(System.in);
     int n = raghulan.nextInt();
