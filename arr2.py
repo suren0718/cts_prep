@@ -1,0 +1,16 @@
+arr = [1, 2, 3, 4, 5, 6]
+arr.append(7)
+arr.remove(3)
+print(arr)
+print("Length of array:", len(arr))
+arr2 = [10, 20, 30]
+arr.extend(arr2)
+print("Extended array:", arr) 
+arr.insert(2, 99)
+print("After insertion:", arr)  
+index = arr.index(4)
+print("Index of 4:", index)
+arr.sort(reverse=True)
+print("Sorted array in descending order:", arr)
+arr.reverse()
+print("Reversed array:", arr)
