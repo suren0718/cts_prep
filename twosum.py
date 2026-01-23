@@ -1,5 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i in range (1, len(nums)):
-            if nums[i]+nums[i-1] == target:
-                return i, i-1
+        for i in range (0, len(nums)):
+            for j in range(i):
+                if nums[i]+nums[j] == target:
+                    return i, j
